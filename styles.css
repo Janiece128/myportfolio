@@ -1,0 +1,224 @@
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 50px;
+}
+
+h3 {
+    color: #CD853F;
+    font-size: 35px;
+}
+
+
+p,
+h6 {
+    color: #5a5a5a;
+}
+
+h6 {
+    font-size: large;
+}
+
+a {
+    color: #CD853F;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: #5a5a5a;
+    text-decoration: none;
+    padding-left: 2px;
+}
+
+button {
+    color:#CD853F;
+    border: 1px solid #CD853F;
+    padding: 10px 20px;
+    font-size: 13px;
+    background: #ffffff;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: #5a5a5a;
+    border: 1px solid #5a5a5a;
+}
+
+.container {
+    display: inline;
+    margin: auto;
+    padding: 10px 20px;
+    
+}
+
+.navbar {
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 5;
+    margin: auto;
+    height: 80px;
+    padding: .7rem 0;
+    position: absolute;
+    
+   
+}
+
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin: auto;
+    padding: 0;
+    justify-content: space-between;
+    margin-left: auto;
+    left: 500px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #5a5a5a;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background .25s;
+    padding: 10px 0px 10px 10px;
+
+}
+
+
+nav a:hover {
+    color: #CD853F;
+
+}
+
+
+.name-logo {
+    font-size: 22px;
+    display: inline;
+}
+
+
+
+#home {
+    height: 575px;
+}
+
+.introduction {
+    margin: auto;
+    padding: 10px 10px;
+
+}
+
+.introduction p {
+    font-weight: 800;
+    font-size: 18px;
+    
+}
+
+.aboutme {
+    background: #ececec;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme ul {
+    list-style: none;
+    
+}
+
+.aboutme ul li {
+    background: url('./images/icons8-in-progress-50.png') no-repeat left top;
+    background-size: 20px;
+    height: 50px;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #CD853F;
+    font-size: 22px;
+    flex-direction: row;
+    text-align: left;
+}
+
+
+.selfie {
+    background-image: url('./images/9EE005EE-FC64-4BA5-BBD7-9A457E478E08.JPG');
+    background-position: 50% 50%;
+    height: 550px;
+    background-size: cover;
+    margin-top: 40px;
+    max-width: 100%;
+   
+}
+
+
+
+.work h6 {
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+
+.work p {
+    text-align: center;
+
+}
+
+.work a {
+    color: #CD853F;
+}
+
+.work img {
+    max-width: 100%;
+    height: 550px;
+}
+
+
+
+.contact {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    background: #f2eae8;
+    justify-content: space-between;
+    padding: 10px;
+
+
+  }
+
+.coontact img {
+    max-width: 25px;
+    padding-bottom: 15px;
+}
+
+.email,
+.linkedin,
+.github {
+    padding: 20px;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    display: inline-flex;
+    
+}
+
+
+.contact_intro,
+.about,
+.work_intro {
+    margin-top: 150px;
+}
+
+.contact_intro h1,
+.about h1, 
+.work_intro h1 {
+    color: #CD853F;
+}
+
+.contact_intro p {
+    font-size: 20px;
+}
